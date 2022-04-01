@@ -1,10 +1,10 @@
 # Ex-02_DS_Outlier
-## AIM
+## AIM:rec
 To detect and remove outliers from the given data and save the final data.
-## EXPLANATION
+## EXPLANATION:
 Outlier is a data object that deviates significantly from the rest of the data objects and behaves in a different manner. They can be caused by measurement or execution errors. The analysis of outlier data is referred to as outlier analysis or outlier mining. The box plot is a useful graphical display for describing the behavior of the data in the middle as well as at the ends of the distributions. The box plot uses the median and the lower and upper quartiles (defined as the 25th and 75th percentiles). If the lower quartile is Q1 and the upper quartile is Q3, then the difference (Q3 - Q1) is called the interquartile range or IQ.
 
-## ALGORITHM
+## ALGORITHM:
 ### STEP 1
 Import the packages(pandas,numpy)
 
@@ -23,7 +23,7 @@ Apply Z-score function defined in scipy library to detect the outliers.
 ### STEP 6
 Apply Statistical Method "Interquartile Range(IQR)" ,to remove the Outliers from the Dataset.
 
-## CODE
+## CODE:
 ```
 import pandas as pd
 df=pd.read_csv("weight.csv")
